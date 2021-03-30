@@ -11,10 +11,10 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    int number = 0;
+    int number = 11;
     do{
-        number++;
+        number--;
         cout << number << endl;
-    }while(number < 10);
+    }while(number > 1);
     return 0;
 }
